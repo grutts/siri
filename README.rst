@@ -7,12 +7,12 @@ Siri
 
 ---------------------
 
-A library for dealing with Service Interface for Real-time Information (SIRI) data
+A library for dealing with `Service Interface for Real-time Information (SIRI) <http://siri.org.uk/index.htm>`_ data
 
 
 Contains:
 
-* Auto-generated python classes for dealing with SIRI data.
+* Auto-generated python classes for dealing with SIRI 2.0 data. Generated from the SIRI 2.0 XSD using xsdata.
 * A method to parse SIRI XML.
 * A method to serialize objects into SIRI XML
 
