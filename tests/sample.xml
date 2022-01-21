@@ -1,0 +1,18 @@
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.siri.org.uk/ http://www.siri.org.uk/schema/1.3/siri.xsd">
+<SubscriptionRequest>
+    <RequestTimestamp>2021-01-01T00:00:00Z</RequestTimestamp>
+    <RequestorRef>bar</RequestorRef>
+    <ConsumerAddress>foo</ConsumerAddress>
+    <SubscriptionContext>
+          <HeartbeatInterval>PT2M</HeartbeatInterval>
+    </SubscriptionContext>
+    <VehicleMonitoringSubscriptionRequest>
+        <SubscriptionIdentifier>1234</SubscriptionIdentifier>
+        <InitialTerminationTime>2021-01-01T00:00:00Z</InitialTerminationTime>
+        <VehicleMonitoringRequest version="1.3">
+            <RequestTimestamp>2021-01-01T00:00:00Z</RequestTimestamp>
+            <VehicleMonitoringRef>12345</VehicleMonitoringRef>
+        </VehicleMonitoringRequest>
+    </VehicleMonitoringSubscriptionRequest>
+</SubscriptionRequest>
+</Siri>
