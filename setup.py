@@ -23,7 +23,7 @@ setup(
     description="A library for dealing with Service Interface for Real-time Information (SIRI) data",
     long_description=read("README.rst"),
     packages=find_packages(exclude=('tests',)),
-    install_requires=["xsdata>=21.1"],
+    install_requires=["xsdata==21.11"],
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'License :: OSI Approved :: MIT License',
